@@ -1,157 +1,102 @@
+<html>
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-<title>Sir Tim Berners-Lee</title>
-
-<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" type="text/css" href="style.css">
- 
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <nav class="navbar-inverse my_nav_bar">
 
-
-    <nav class="navbar-inverse my_nav_bar" >
-       <div class="navbar-header">
-           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-               <span class="icon-bar">
-               </span>
-               <span class="icon-bar">
-               </span>
-               <span class="icon-bar">
-               </span>
-           </button>
-           <a class="navbar-brand" href="#">
-               Tia Zamora Fernandes
-           </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">LSB</a>
         </div>
-           <div class="collapse navbar-collapse"id="myNavbar">
-               <ul class="nav navbar-nav">
-                   <li>
-                       <a href="#welcome">
-                           Home
-                       </a>
-                   </li>
-                    <li>
-                       <a href="#videos">
-                           Videos
-                       </a>
-                   </li>
-                    <li>
-                       <a href="#work">
-                           Work
-                       </a>
-                   </li>
-                    <li>
-                       <a href="#contact">
-                           Conatct
-                       </a>
-                   </li>
-               </ul>
-        </div>
+        <center>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="links"><a href="#LSB">Legacy School Bangalore</a></li>
+                    <li class="links"><a href="#yt">Video</a></li>
+                    <li class="links"><a href="#Admission">Admission</a></li>
+                    <li class="links"><a href="#alumni">Alumni</a></li>
+                    <li class="links"><a href="#activity">Activity</a></li>
+                    <li class="links"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </center>
     </nav>
-
-    <section id="welcome">
-        <img src="stbl.jpg" class="profile img-circle">
-        <h1 >I Am 
-            <br>
-            <span id="name" >Tim Berners-Lee</span>
-        </h1>
-        <h2 > I am the founder of www: World Wide Web</h2>
-    </section>
-
-
-    <section id="bio">
-        <h1>Hi!</h1>
+    <section>
+        <h1 id="h1">Legacy School Bangalore</h1>
         <div class="line"></div>
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
-
-            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
-
-            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
-
-            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
-
-            The Web was first used for e-commerce in 1997.</p>
+        <img id="schoolLogo" src="data:image/png;base64,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">
     </section>
-
-<hr>
-    <section id="videos">
+    <section id="#LSB">
+        <h1>Legacy School Bangalore</h1>
+        <div class="line"></div>
+        <br>
+        <iframe class="link" src="https://lsb.edu.in/"></iframe>
+    </section>
+    <br>
+    <br>
+    <section id="#yt">
         <h1>Videos</h1>
         <div class="line"></div>
         <br>
-        <iframe src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500" > </iframe>
-        <br>
-        <br>
-
-        <iframe height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2" ></iframe>
+        <iframe class="i1" src="https://www.facebook.com/LegacySchoolBangalore/videos/198204347744514/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-
-<hr>
-    <section id="work" style="width: 100%;">
-        <h1>WORK</h1>
+    <br>
+    <br>
+    <section id="#Admission">
+        <h1>Online Admission</h1>
         <div class="line"></div>
-        <iframe class="work_iframe" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0" style="width: 80%; margin: 10px;"></iframe>
-
-    </section>
-
-    <hr>
-
-    <section id="writings">
-        <h1 style="f">WRITINGS</h1>
-        <div class="line"></div>
-        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
         <br>
-        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+        <iframe class="i1" src="https://lsb.edu.in/admissions/"></iframe>
     </section>
-    <hr>
-
-<section id="contact">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
-
-<!--ADD bootstrap classes to contact_1 div -->
-    <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12" >
-           <a href="mailto:my@gmail.com?Subject=Hi">
-               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
-            </a> 
-
-           <a href="#"> 
-               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
-            </a> 
-        </div>
-    <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <form>
+    <br>
+    <br>
+    <section id="#alumni">
+        <h1>Alumni</h1>
+        <div class="line"></div>
+        <br>
+        <iframe class="i1" src="https://lsb.edu.in/life-at-legacy/our-alumni/"></iframe>
+    </section>
+    <section id="#activity">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 activity_text">
+            <h5 class="text-success text-left text-capitalize">Activity</h5>
+            <div class="line"></div>
+            <br>
             <span>
-                Name :
-            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="name" required>
-            <br>
-            <br>
-             <span>
-                Comment :
-            </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="Comment" required>
-            <br>
-            <br>
-            <input type="submit" value="submit" class="btn btn-success">
-        </form>
-        
-    </div>
-
-   
+                <img id="activities" src="https://lsb.edu.in/wp-content/uploads/2019/02/banner-sport-life.jpg">
+                
+            </span>
+            
+        </div>
     </section>
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5647788424862!2d77.65020221371748!3d13.063351890795683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19ff99b39c2f%3A0x6371aa59ac9fa927!2sLegacy%20School!5e0!3m2!1sen!2sin!4v1622982720133!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <hr style="width: 100%">
+        <h3>***************</h3>
+        <div class="line"></div>
+        <div class="contact_1">
 
-</body></html>
+            <a href="mailto:qwwe24427d.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;qwwe24427d.com</h5>
+                <div class="line"></div>
+                <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;********</h5>
+                <div class="line"></div>
+            </a>
+        </div>
+    </section>
+</body>
+
+
+</html>
